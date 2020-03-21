@@ -1,0 +1,314 @@
+.nav-link1{
+  
+  margin-left:40rem;
+  font-weight: bold;
+  color:black;
+}
+.nav-link{
+  
+  margin:1rem;
+  color:black;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-greyuced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-light {
+  background-color:#fff ;
+  
+}
+
+.navbar-brand{
+  text-decoration-style: solid;
+  font-weight: bold;
+  font-size: xx-small;
+
+}
+
+.nav-link{
+    text-decoration-style: solid;
+    font-weight: bold;
+    font-size: small;
+    margin-left:20rem;
+}
+
+.nav-text{
+  text-decoration-style: solid;
+  font-weight: bold;
+  font-size: small;
+}
+
+.dotted{
+  border-style: solid;
+}
+
+.dot {
+  height: 35px;
+  width: 35px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius: 10px;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(64, 90, 238);
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.custom-timeline {
+  margin-left: 10px;
+}
+
+.custom-timeline .rs-timeline-item-custom-dot .rs-icon {
+  position: relative;
+  background: #fff;
+  top: 0;
+  left: -2px;
+  border: 2px solid #ddd;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 18px;
+  padding-top: 9px;
+  color: #800;
+  margin-left: -8px;
+}
+
+.custom-timeline .rs-timeline-item-content {
+  margin-left: 12px;
+}
+
+.card {
+  width: 7rem !important;
+  border-radius: 0.6rem !important;
+  background-color: #3232FF !important;
+  height: 6rem;
+  margin: 1rem;
+}
+
+.card_head {
+  left: 0.5rem;
+  position: absolute;
+  color: white;
+}
+
+.card_no {
+  position: inherit;
+  top: 1rem;
+  margin: auto;
+  font-size: 2rem;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.card_head {
+  left: 0.5rem;
+  position: absolute;
+  color: white;
+}
+
+.card_no {
+  position: inherit;
+  top: 1rem;
+  margin: auto;
+  font-size: 2rem;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  margin-left: 3rem;
+  margin-top: 5rem;
+  
+}
+
+.timeline_line {
+  border-style: dotted;
+  width: 0;
+  border-width: 0 5px 0 0;
+  height: 5rem;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: lightblue;
+  width: 1em;
+  height: 1rem;
+  margin-top: 10px;
+  margin-left: -5px;
+  display: inline-block;
+}
+
+.timeline-item-date {
+  display: none;
+}
+
+.timeline_content {
+  height: 3rem;
+  border-color: grey;
+  border-style: solid;
+  display: table;
+  width: 100%;
+}
+
+.timeline_status {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 1rem;
+}
+
+.timeline_date {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.timeline_time {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.body-container {
+  background-color: white !important;
+  margin-left: 7rem !important;
+  margin-top: -1rem !important;
+  width: 73% !important;
+}
+
+.bounce-in {
+  background-color: blueviolet;
+  height: 3px;
+  width: 6rem;
+  margin-left: 14rem;
+  margin-top: 0.7rem;
+}
+
+.entry {
+  margin-bottom: 5rem;
+}
+
+.timeline_image1 {
+  background-color:rgb(191, 241, 239);
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  position: relative;
+  top: -20%;
+  left: calc(30.2% + 6px);
+  bottom: 0px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline_image2 {
+  background-color: rgb(100, 220, 200);
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 95%;
+  left: calc(30.2% + 6px);
+  bottom: 0px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table{
+  
+  overflow: scroll;
+  height:500px;
+  table-layout: fixed;
+  display: block;
+  border: 1px solid lightgrey;
+  
+}
+.thead{
+  display: block;
+}
+
+.tbody{
+ 
+  display: block;
+  overflow-y: auto;
+}
+
+
+.td{
+  font-size: xx-small;
+  
+}
+.th{
+  font-size: xx-small;
+  color: lightgrey;
+  
+
+}
+
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+}
